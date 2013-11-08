@@ -1,0 +1,17 @@
+[redis]
+host=localhost
+port=6379
+db=0
+channel=GPSSensorsDataTest
+
+[db_daemon]
+workers=10
+
+[server]
+port=9980
+
+[remote_db]
+host=
+user=
+password=
+database=GPS
